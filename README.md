@@ -3,15 +3,17 @@
 ### The purpose of this analysis is to provide information on retiring employees to match them up with a mentorship program in the company, as there is a very large number of employees coming upon retirement and leaving the company in a short timeframe. The retiring employees are identified by their job title and employees that are eligible to be matched up for mentorship are also identified.
 
 ## Results:
-•	Retirement titles table: filtered results of employees born between 1952 and 1955. This table contains multiple instances of the same employee due to job title changes and     also includes employees who are no longer employed at the company (see highlighted “Chirstian Koblick” and “Mary Sluis”).
-![retirement_titles](https://user-images.githubusercontent.com/74624855/129448598-d120197b-ff50-47d1-8453-dcfec8fff44b.png)
+### •	Retirement titles table: 
+  Filtered results of employees born between 1952 and 1955. This table contains multiple instances of the same employee due to job title changes and also includes employees        who are no longer employed at the company (see highlighted “Chirstian Koblick” and “Mary Sluis”).
 
-•	Unique titles table: 90,398 employees are set to retire based on the three-year filter of retirement-eligible employees. However, this list likely contains employees who are   no longer with the company (using “Mary Sluis” as an example).
-![unique_titles](https://user-images.githubusercontent.com/74624855/129448684-af9dadfe-fb60-4fae-b985-46d0ffdf54b1.png)
+### •	Unique titles table: 
+  90,398 employees are set to retire based on the three-year filter of retirement-eligible employees. However, this list likely contains employees who are no longer with the      company (using “Mary Sluis” as an example).
 
-•	Retiring titles table: We have a breakdown of the employee count by department. As expected with retirement there is a majority of Senior Engineers and Senior Staff roles       that will open up.
+### •	Retiring titles table: 
+  We have a breakdown of the employee count by department. As expected with retirement there is a majority of Senior Engineers and Senior Staff roles that will open up.
 
-•	Mentorship eligibility table: In the age-based filter of employees born in 1965, there are 1,549 employees eligible to be matched up with mentors that are retiring.
+### •	Mentorship eligibility table: 
+  In the age-based filter of employees born in 1965, there are 1,549 employees eligible to be matched up with mentors that are retiring.
 
 ## Summary: 
 1.	Based on the results from “retiring_titles.csv”:  90,398 roles will open up and need to be filled as the “silver tsunami” retirements take place. This will be a huge           portion of the workforce from the company. That said, the retirement employees need to be further filtered so employees who are no longer with the company should be removed     from the list and the retirement pool will be smaller than this. Filtering by keeping only employees with a to_date set at ‘9999-01-01’ should help with this. In the           mentorship-eligible pool of employees born in 1965, there are not enough candidates for the program as the total count of these employees is 1,549 (as per                       “mentorship_eligibility.csv”).

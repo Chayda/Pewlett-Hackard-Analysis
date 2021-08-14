@@ -10,10 +10,8 @@
 ![unique_titles](https://user-images.githubusercontent.com/74624855/129448684-af9dadfe-fb60-4fae-b985-46d0ffdf54b1.png)
 
 •	Retiring titles table: We have a breakdown of the employee count by department. As expected with retirement there is a majority of Senior Engineers and Senior Staff roles       that will open up.
-![retiring_titles](https://user-images.githubusercontent.com/74624855/129448690-bc69357f-dd95-463d-8754-d11d48e93230.png)
 
 •	Mentorship eligibility table: In the age-based filter of employees born in 1965, there are 1,549 employees eligible to be matched up with mentors that are retiring.
-![mentorship_eligibility](https://user-images.githubusercontent.com/74624855/129448693-44362d4c-d93e-4547-b7a8-ba540165de15.png)
 
 ## Summary: 
 1.	Based on the results from “retiring_titles.csv”:  90,398 roles will open up and need to be filled as the “silver tsunami” retirements take place. This will be a huge           portion of the workforce from the company. That said, the retirement employees need to be further filtered so employees who are no longer with the company should be removed     from the list and the retirement pool will be smaller than this. Filtering by keeping only employees with a to_date set at ‘9999-01-01’ should help with this. In the           mentorship-eligible pool of employees born in 1965, there are not enough candidates for the program as the total count of these employees is 1,549 (as per                       “mentorship_eligibility.csv”).

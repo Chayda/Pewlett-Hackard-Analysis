@@ -28,7 +28,7 @@
 
 2.	There are 1,549 employees eligible for the Mentorship Program, to be matched up with Retiring employees (as "per mentorship_eligibility.csv"). This is not enough to support     the very large number of employees that will be retiring and leaving the company.
 
-## Additional Queries we can run 
+## Additional Queries we can run: 
 •	The department count of mentorship-eligible employees would make it easier to match up candidates with retiring employees (using refactored code from unique_titles and         retiring_titles tables. We can also create a new table and use the departments table to further refine which specific departments will have openings which can make it easier   to match up mentorship-eligible employees with retiring employees.
 
 •	The results indicate that there will be a high need for Senior Engineers and Senior Staff, so filtering through mentorship-eligible employees that are specifically engineers   and staff (not senior) to match up with the senior mentors can help the company fill the senior roles. It may be necessary to re-filter through the mentorship-eligible         employees table and broaden the year of eligibility from 1965-1968 to provide more employees for the program. Then the company can hire out for more lower-level engineers and   staff.
